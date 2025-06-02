@@ -4,9 +4,9 @@ A small script to convert a Magic the Gathering decklist from [Moxfield](https:/
 
 ## Usage
 
-The arguments are optional, they default to `moxfield-export.txt` and `exported.csv`
+The arguments are optional. input-file defaults to `moxfield-export.txt`. output-file defaults to `order.csv`
 
 ```
-ruby convert.rb [input-file] [output-file]
+ruby convert.rb [-i input-file] [-o output-file]
 ```
 
